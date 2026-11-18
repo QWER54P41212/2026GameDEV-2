@@ -5,6 +5,7 @@ import sys
 import time
 import os
 
+
 pygame.init()
 
 # 화면 설정
