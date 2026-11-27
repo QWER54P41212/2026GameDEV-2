@@ -1,4 +1,6 @@
 
+from tracemalloc import start
+
 import pygame
 import random
 import sys
@@ -349,7 +351,7 @@ while running:
     # 게임 시작 시 생성된 별 위치 사용
     
 # 별 배경
-for x, y in stars:
+for x, y in start:
     pygame.draw.circle(screen, WHITE, (x, y), 1)
 
 
